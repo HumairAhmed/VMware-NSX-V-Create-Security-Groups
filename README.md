@@ -5,13 +5,9 @@ Description:    Script reads input from a CSV file and creates Security Groups w
                 criteria. Used with NSX 6.2.2 and Python 2.7.11. For additional information, see the 
                 following article:
                 http://blogs.vmware.com/networkvirtualization/2016/04/nsx-automating-security-group.html
-
 Version:        1.0
-
 Date:           03/31/2016
-
 Author:         Humair Ahmed (http://www.HumairAhmed.com)
-
 Company:        VMware       
 
 Copyright © 2016 VMware, Inc. All Rights Reserved.
