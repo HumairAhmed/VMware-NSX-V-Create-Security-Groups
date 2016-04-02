@@ -40,11 +40,11 @@ except FileNotFoundError as e:
     print "Input CSV file not found!"
     
 try:   
-    csv_data = csv.reader(csv_file)     #read in CSV data to python list variable
+    csv_data = csv.reader(csv_file)     #get reader object to iterate over lines in CSV file
 except IOError as e:
     print "Error reading CSV file!"
 
-for security_group in cv_data:          #loop through list of parsed lines read in from CSV file
+for security_group in cv_data:          #loop through parsed lines read in from CSV file
     #print security_group[0]    #uncomment for debugging - contains Security Group name
     #print security_group[1]    #uncomment for debugging - contains Security Group word to match in VM name
 
